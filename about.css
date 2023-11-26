@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("https://www.funnyart.club/uploads/posts/2022-01/1641688194_39-www-funnyart-club-p-kosmicheskie-krasivie-foni-40.jpg");
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: left;
+  padding: 40px 260px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 30px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+body {
+  background-color: beige;
+}
+.menu {
+  display: flex;
+}
+.menu_item {
+  margin-left: 22px;
+  color: rgb(236, 7, 7);
+  text-decoration: none;
+}
+.menu_item_link {
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 52, 8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+.menu_item_link:hover {
+  background-color: rgb(255, 170, 66);
+}
+.greeting_title {
+  color: rgb(255, 246, 233);
+  font-weight: 600;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section_title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 32px;
+}
+.set{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 400px 50px 100px;
+  font-size: 32px;
+}
+h1{
+  color: aliceblue;
+  background-color: white;
+  width: 1300px;
+  padding: 22px 14px;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 22px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  margin: 40px auto;
+}
+.about_text {
+  background-color: white;
+  width: 1300px;
+  padding: 22px 14px;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 22px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  margin: 40px auto;
+}
+.left-img {
+width: 450px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  float:left; /* Выравниваем по левому краю */
+  margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+  border-radius: 10px;  /* Скругление углов изображения */
+    border: 5px solid #fff; /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+}
+.right-img  {
+  width: 350px;
+  border-radius: 10px;  /* Скругление углов изображения */
+    border: 5px solid #fff; /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+  float: right; /* Выравниваем по правому краю  */ 
+  margin: 10px 0 10px 10px; /* Настраиваем отступы вокруг картинки */
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  background-color: white;
+}
+.sar{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 400px 50px 100px;
+  font-size: 32px;
+}
+footer {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}

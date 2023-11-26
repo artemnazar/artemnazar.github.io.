@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("https://www.funnyart.club/uploads/posts/2022-01/1641688194_39-www-funnyart-club-p-kosmicheskie-krasivie-foni-40.jpg");
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: left;
+  padding: 40px 260px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 30px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.menu {
+  display: flex;
+}
+.menu_item {
+  margin-left: 22px;
+  color: rgb(236, 7, 7);
+  text-decoration: none;
+}
+.menu_item_link {
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 61, 40);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+.menu_item_link:hover {
+  background-color: rgb(255, 170, 66);
+}
+.greeting {
+  height: 100vh;
+  background-color: bisque;
+  background-image: url("https://funart.pro/uploads/posts/2021-04/1618455906_33-funart_pro-p-oboi-fon-belii-shelk-34.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greeting_title {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 36px;
+}
+.section_title {
+  text-align: center;
+  padding: 100px 0;
+  font-size: 32px;
+}
+.about_text {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+.section-card {
+  padding: 0 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.section-card .card {
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    140deg,
+    #132936,
+    #132936 20%,
+    #2196f3 20.5%,
+    #2196f3
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.section-card .card .img-container {
+  padding: 10px 0 0 0;
+}
+.section-card .card .img-container img {
+  filter: drop-shadow(0px -5px 25px rgba(0, 0, 0, 0.7));
+  transform: scale(1.15);
+}
+.section-card .card .infos {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.section-card .card .infos .name,
+.section-card .card .infos .price {
+  color: #fff;
+}
+.section-card .card .infos .name {
+  font-size: 1.1rem;
+}
+.section-card .card .infos .price {
+  margin: 10px 0 15px 0;
+  font-size: 2rem;
+}
+.section-card .card .infos .btn {
+  font-family: "Radio Canada", sans-serif;
+  padding: 0.8rem 1.6rem;
+  border-radius: 50px;
+  border: 1px solid #f2f2f2;
+  font-size: 1rem;
+  font-weight: 300;
+  min-width: 150px;
+  cursor: pointer;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+.section-card .card .infos .btn:hover {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+@media screen and (min-width: 700px) {
+  .section-card .card {
+    display: flex;
+    align-items: center;
+    min-width: 550px;
+    padding: 15px 20px;
+  }
+  .section-card .card .img-container {
+    padding-top: 0;
+    width: 60%;
+  }
+}
+
+footer {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
